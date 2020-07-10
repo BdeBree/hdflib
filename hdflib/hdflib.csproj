@@ -4,6 +4,14 @@
     <TargetFramework>net452</TargetFramework>
     <Authors>Bas de Bree</Authors>
     <Company>Bree Tech</Company>
+    <Description>a Lightweight library for writing HDF5 datasets</Description>
+    <Copyright>Bree Tech</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/BdeBree/hdflib/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BdeBree/hdflib/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>hdf library write h5 datasets</PackageTags>
+    <PackageReleaseNotes>initial version with support for writing datasets to h5 files</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
