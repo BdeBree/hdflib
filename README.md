@@ -1,5 +1,12 @@
-# hdflib: Writing hdf datasets in .net
-Lightweight library for writing HDF5 datasets in .NET, using the official HDF.PInvoke library
+# hdflib: Writing hdf5 datasets in .NET
+[![Nuget](https://img.shields.io/nuget/v/hdflib)](https://www.nuget.org/packages/hdflib/)
+
+hdflib is a lightweight library for writing HDF5 datasets in .NET, using the official [HDF.PInvoke](https://github.com/HDFGroup/HDF.PInvoke) library.
+
+## Installation
+Install the hdflib library using [nuget](https://www.nuget.org/packages/hdflib/).
+The library comes with a reference to HDF.PInvoke and you're good to go.
+
 
 ## Usage
 
@@ -35,6 +42,13 @@ if __name__ == '__main__':
     for k in exp:
       print((k, np.array(f[k]))
 
+```
+
+## Reading it with Matlab
+```Malab
+fname = 'test.h5';
+h5disp(fname);
+h5read(fname, '/example/matrix')
 ```
 
 That's all!
